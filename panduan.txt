@@ -1,0 +1,5 @@
+panduan
+
+install library pada requirement.txt dengan membuka terminal dan ketikan pip install -r requirements.txt
+
+untuk run python ketikkan pada terminal streamlit run nlp.py
