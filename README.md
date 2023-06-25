@@ -16,8 +16,12 @@ Speech Controls: Users can control the speech playback, including pausing, resum
 The application is built using the following technologies and tools:
 
 Python
+
 SpeechRecognition library
+
 pyttsx3 library
+
 Natural Language Processing (NLP) techniques
+
 Text-to-Speech (TTS) conversion algorithms
 
