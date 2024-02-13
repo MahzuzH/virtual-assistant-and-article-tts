@@ -1,3 +1,7 @@
-streamlit
-speech_recognition
-pyttsx3
+gTTS==2.5.1
+newspaper3k==0.2.8
+pywhatkit==5.4
+selenium==4.17.2
+SpeechRecognition==3.10.1
+streamlit==1.25.0
+streamlit_option_menu==0.3.12
