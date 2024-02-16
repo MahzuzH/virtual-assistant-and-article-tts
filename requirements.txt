@@ -1,6 +1,5 @@
 gTTS==2.5.1
 newspaper3k==0.2.8
-pillow==8.4.0
 pywhatkit==5.4
 selenium==4.17.2
 SpeechRecognition==3.10.1
