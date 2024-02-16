@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'mhz-indosentiment'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1CF45255CC7B49E8ADBF99FFE74BD1C3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F70D8DCB1C34E989E040A6C81C0C5A2 }}
