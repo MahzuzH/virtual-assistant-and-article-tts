@@ -2,12 +2,10 @@ import streamlit as st
 import speech_recognition as sr
 import time
 import os
-import pywhatkit as kit
 from streamlit_option_menu import option_menu
 from selenium import webdriver
 from newspaper import Article
 from gtts import gTTS
-
 
 paths = {
     'discord': "C:\\Users\\Acer\\AppData\\Local\\Discord\\app-1.0.9013\\Discord.exe",
@@ -30,10 +28,6 @@ def search_on_wikipedia(query):
 
 def open_dc():
     os.startfile(paths['discord'])
-
-
-def send_whatsapp_message(number, message):
-    kit.sendwhatmsg_instantly(f"+62{number}", message)
 
 
 def tts_article(url):
@@ -116,11 +110,6 @@ def main():
                 elif "wikipedia" in text:
                     query = text.replace("wikipedia", "").strip()
                     search_on_wikipedia(query)
-        st.title("Send Whatsapp Message")
-        number = st.text_input("Enter Number:")
-        if st.button("Record"):
-            message = mic_input()
-            send_whatsapp_message(number, message)
 
     # Bagian Text-to-Speech
     if selected == "Text To Speech":
